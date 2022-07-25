@@ -14,7 +14,7 @@ export default function TodoList(props) {
             <ul>
                 {
                     todoList.map(todo => {
-                        return <Todo todo={todo} todoList={todoList} setTodoList={setTodoList} />
+                        return <Todo key={todo} todo={todo} todoList={todoList} setTodoList={setTodoList} />
                     })
                 }
             </ul>

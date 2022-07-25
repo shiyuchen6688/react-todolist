@@ -11,7 +11,7 @@ export default function Todo(props) {
         <li>
             <div id="container">
                 Task Description: {todo}
-                <button class='delete-button' onClick={handleDeleteTask}>X</button>
+                <button className='delete-button' onClick={handleDeleteTask}>X</button>
 
             </div>
         </li>
